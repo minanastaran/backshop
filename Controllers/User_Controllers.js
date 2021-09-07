@@ -134,13 +134,13 @@ const Create_User=async(req,res,next)=>{
         rejectUnauthorized: false
         },
         auth: {
-            user: 'mina.nastaran1371@gmail.com', // generated ethereal user
-            pass: 'minanastaran1921371', // generated ethereal password
+            user: 'mina@gmail.com', // generated ethereal user
+            pass: '...', // generated ethereal password
         }
     });
 
     let mailOptions={
-        from:'mina.nastaran1371@gmail.com',
+        from:'mina@gmail.com',
         to:email,
         subject: 'Welcome to Shop ',
         html:
